@@ -2,16 +2,23 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
 <xsl:template match="/">
   <xsl:value-of select="php:function('opendir', '.')"/>
-  Dir List:
-  1. <xsl:value-of select="php:function('readdir')"/> | 
-  2. <xsl:value-of select="php:function('readdir')"/> | 
-  3. <xsl:value-of select="php:function('readdir')"/> | 
-  4. <xsl:value-of select="php:function('readdir')"/> | 
-  5. <xsl:value-of select="php:function('readdir')"/> | 
-  6. <xsl:value-of select="php:function('readdir')"/> | 
-  7. <xsl:value-of select="php:function('readdir')"/> | 
-  8. <xsl:value-of select="php:function('readdir')"/> | 
-  9. <xsl:value-of select="php:function('readdir')"/> | 
-  10. <xsl:value-of select="php:function('readdir')"/>
+  
+  Directory Listing:
+  01. <xsl:value-of select="php:function('readdir')"/> | 
+  02. <xsl:value-of select="php:function('readdir')"/> | 
+  03. <xsl:value-of select="php:function('readdir')"/> | 
+  04. <xsl:value-of select="php:function('readdir')"/> | 
+  05. <xsl:value-of select="php:function('readdir')"/> | 
+  06. <xsl:value-of select="php:function('readdir')"/> | 
+  07. <xsl:value-of select="php:function('readdir')"/> | 
+  08. <xsl:value-of select="php:function('readdir')"/> | 
+  09. <xsl:value-of select="php:function('readdir')"/> | 
+  10. <xsl:value-of select="php:function('readdir')"/> | 
+  11. <xsl:value-of select="php:function('readdir')"/> | 
+  12. <xsl:value-of select="php:function('readdir')"/> | 
+  13. <xsl:value-of select="php:function('readdir')"/> | 
+  14. <xsl:value-of select="php:function('readdir')"/> | 
+  15. <xsl:value-of select="php:function('readdir')"/> | 
+  16. <xsl:value-of select="php:function('readdir')"/>
 </xsl:template>
 </xsl:stylesheet>
